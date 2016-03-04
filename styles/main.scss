@@ -104,6 +104,7 @@
 	color: white;
 	text-align: center;
 	box-sizing: border-box;
+	letter-spacing: 1px;
 }
 
 .top-div-2{
@@ -138,6 +139,7 @@
 	color: #526066;
 	padding: 0.8em;
 	box-sizing: border-box;
+	list-style-type: none;
 }
 
 .first-section-bottom{
@@ -163,6 +165,59 @@
 	padding-top: 0.6em;
 }
 
+.second-section-top{
+	background-color: #2C4985;
+	height: 13.2em;
+	width: 22.84em;
+	padding-top: 2.1em;
+	box-sizing: border-box;
+	padding-bottom: 2.1em;
+}
+
+.second-section-mid{
+	height: 17.15em;
+	background-color: #F7F7F7;
+	width: 22.8em;
+	margin-bottom: 0;
+	box-sizing: border-box;
+}
+
+.second-section-mid > li{
+	font-family: "Open Sans", sans-serif;
+	border-top: 1px solid grey;
+	text-align: center;
+	color: #526066;
+	padding: 0.8em;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+.third-section-top{
+	background-color: black;
+	height: 13.2em;
+	width: 22.84em;
+	padding-top: 2.1em;
+	box-sizing: border-box;
+	padding-bottom: 2.1em;
+}
+
+.third-section-mid{
+	height: 17.15em;
+	background-color: #F7F7F7;
+	width: 22.8em;
+	margin-bottom: 0;
+	box-sizing: border-box;
+}
+
+.third-section-mid > li{
+	font-family: "Open Sans", sans-serif;
+	border-top: 1px solid grey;
+	text-align: center;
+	color: #526066;
+	padding: 0.8em;
+	box-sizing: border-box;
+	list-style-type: none;
+}
 
 
 
