@@ -1,4 +1,61 @@
-body {
+
+/*body{
 	background-color: blue;
+}*/
+
+.navbar{
+	height: 2.5625em;
+	overflow: hidden;
+	max-width: 478px;
+	padding: 0.5em;
+
 }
+
+.yourlogo{
+	width: 7.4375em;
+	/*background-color: #bada55;*/
+	float: left;
+	font-family: "Open Sans", sans-serif;
+	color: #7C8187;
+
+}
+
+.links{
+	width: 15.8125em;
+	float: right;
+
+}
+
+.links-indi1{
+	padding: 1em;
+	font-family: "Open Sans", sans-serif;
+	color: #767676;
+}
+
+.links-indi2{
+	padding: 1em;
+	font-family: "Open Sans", sans-serif;
+}
+
+.links-indi3{
+	padding: 1em;
+	font-family: "Open Sans", sans-serif;
+	color: #767676;
+}
+
+.headlogo{
+	max-width: 478px;
+}
+
+.h-pricing{
+	text-align: center;
+	/*vertical-align: center;*/
+	margin-bottom: 0;
+}
+
+.h-try{
+	text-align: center;
+	margin-top: 0;
+}
+
 
