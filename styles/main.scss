@@ -77,6 +77,8 @@
 	margin-bottom: 2em;
 	margin-right: 1em;
 	margin-left: 2.2em;
+	border: 1px solid grey;
+	max-width: 23em;
 }
 
 .first-section-top{
@@ -106,4 +108,38 @@
 	text-align: center;
 	font-size: 1.2em;
 }
+
+.first-section-mid{
+	height: 17.15em;
+	background-color: #F7F7F7;
+	width: 23em;
+	margin-bottom: 0;
+}
+
+.first-section-mid > li{
+	font-family: "Open Sans", sans-serif;
+	border: 1px solid grey;
+	text-align: center;
+	color: #526066;
+	padding: 0.8em;
+}
+
+.first-section-bottom{
+	/*border: 1px solid grey;*/
+	height: 3em;
+	max-width: 22.85em;
+	padding-top: 1em; 
+	padding-bottom: 1em; 
+	padding-left: 2em;
+}
+
+.choose-button{
+	height: 2em;
+	width: 8em;
+	border: 1px solid grey;
+	border-radius: 0 50% 0 50%;
+}
+
+
+
 
