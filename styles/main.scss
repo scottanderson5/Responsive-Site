@@ -4,16 +4,18 @@
 }*/
 
 .navbar{
-	height: 1.3em;
+	height: 3.3em;
 	overflow: hidden;
 	max-width: 478px;
 	padding: 0.5em;
+	box-sizing: border-box;
 
 }
 
 .yourlogo{
 	width: 7.4375em;
 	/*background-color: #bada55;*/
+	box-sizing: border-box;
 	float: left;
 	font-family: "Open Sans", sans-serif;
 	color: #7C8187;
@@ -23,6 +25,7 @@
 .links{
 	width: 15.8125em;
 	float: right;
+	box-sizing: border-box;
 
 }
 
@@ -46,9 +49,12 @@
 .headlogo{
 	max-width: 478px;
 	background: url(../Images/BlurryTree.jpg) 0 0 no-repeat;
-	height: 160px;
+	height: 200px;
 	padding-top: 2.7em;
-	padding-right: 2em;
+	/*padding-right: 2em;*/
+	box-sizing: border-box;
+	padding-bottom: 2.7em;
+	/*margin-top: 1em;*/
 }
 
 .h-pricing{
@@ -60,6 +66,7 @@
 	text-shadow: 0.5px 0.5px black;
 	font-weight: normal;
 	padding-right: 1em;
+	box-sizing: border-box;
 }
 
 .h-try{
@@ -70,6 +77,7 @@
 	font-weight: normal;
 	padding-right: 1em;
 	text-shadow: 0.5px 0.5px black;
+	box-sizing: border-box;
 }
 
 .first-section{
@@ -79,19 +87,23 @@
 	margin-left: 2.2em;
 	border: 1px solid grey;
 	max-width: 23em;
+	box-sizing: border-box;
 }
 
 .first-section-top{
 	background-color: #519251;
-	height: 11.2em;
-	width: 23em;
+	height: 13.2em;
+	width: 22.84em;
 	padding-top: 2.1em;
+	box-sizing: border-box;
+	padding-bottom: 2.1em;
 }
 
 .top-div-1{
 	font-family: "Open Sans", sans-serif;
 	color: white;
 	text-align: center;
+	box-sizing: border-box;
 }
 
 .top-div-2{
@@ -100,6 +112,7 @@
 	text-align: center;
 	font-size: 6em;
 	font-weight: normal;
+	box-sizing: border-box;
 }
 
 .top-div-3{
@@ -107,37 +120,47 @@
 	color: #A7C8A7;
 	text-align: center;
 	font-size: 1.2em;
+	box-sizing: border-box;
 }
 
 .first-section-mid{
 	height: 17.15em;
 	background-color: #F7F7F7;
-	width: 23em;
+	width: 22.8em;
 	margin-bottom: 0;
+	box-sizing: border-box;
 }
 
 .first-section-mid > li{
 	font-family: "Open Sans", sans-serif;
-	border: 1px solid grey;
+	border-top: 1px solid grey;
 	text-align: center;
 	color: #526066;
 	padding: 0.8em;
+	box-sizing: border-box;
 }
 
 .first-section-bottom{
 	/*border: 1px solid grey;*/
-	height: 3em;
-	max-width: 22.85em;
+	height: 5em;
+	width: 22.85em;
 	padding-top: 1em; 
 	padding-bottom: 1em; 
-	padding-left: 2em;
+	border-top: 1px solid grey;
+	padding-left: 8.6em;
+	box-sizing: border-box;
 }
 
 .choose-button{
-	height: 2em;
-	width: 8em;
+	height: 2.5em;
+	width: 6em;
 	border: 1px solid grey;
-	border-radius: 0 50% 0 50%;
+	border-radius: 40%;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 0.6em;
 }
 
 
