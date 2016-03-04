@@ -243,5 +243,19 @@
 	box-sizing: border-box;
 }
 
+.thefooter{
+	text-align: center;
+	background-color: black;
+	color: grey;
+	height: 3em;
+	padding: 1.5em;
+	max-width: 478px;
+}
+
+.thefooter > a {
+	color: white;
+}
+
+
 
 
