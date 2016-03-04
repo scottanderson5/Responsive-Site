@@ -88,6 +88,7 @@
 	border: 1px solid grey;
 	max-width: 23em;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 .first-section-top{
@@ -217,6 +218,29 @@
 	padding: 0.8em;
 	box-sizing: border-box;
 	list-style-type: none;
+}
+
+.nextsection{
+	box-sizing: border-box;
+	max-width: 23em;
+	overflow: hidden;
+	padding: 1.5em 1.5em 1.5em 3.5em;
+}
+
+.nextsection-div{
+	font-size: 15px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+.nextsection-p{
+	font-family: "Open Sans", sans-serif;
+	color: #4F5E64;
+	line-height: 180%;
+	box-sizing: border-box;
 }
 
 
